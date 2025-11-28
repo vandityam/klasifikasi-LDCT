@@ -10,8 +10,8 @@ st.title("Literasi Digital Guru & Computational Thinking Siswa")
 # =====================================================
 # 1. LOAD DATA
 # =====================================================
-guru_path = r"D:\xampp\htdocs\skripsi_klasifikasi\files\data_LD_guru.csv"
-siswa_path = r"D:\xampp\htdocs\skripsi_klasifikasi\files\data_CT_siswa.csv"
+guru_path = r"files/data_LD_guru.csv"
+siswa_path = r"files/data_CT_siswa.csv"
 
 df_guru = pd.read_csv(guru_path, sep=";")
 df_siswa = pd.read_csv(siswa_path, sep=";")
